@@ -1,0 +1,21 @@
+# Local
+.DS_Store
+*.local
+*.log*
+
+# Dist
+node_modules
+dist/
+storybook-static
+doc_build/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Test databases
+test_rocksdb_*
+test_batch_scratch*
+test_db*
+test_scratch_db*

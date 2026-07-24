@@ -1,0 +1,56 @@
+{
+  "name": "@enjoys/store",
+  "version": "1.0.0",
+  "description": "A 100% embedded, local-first backend runtime and data structures library built entirely on top of RocksDB.",
+  "author": "Mullayam Singh <mullayam06@gmail.com>",
+  "contributors": [
+    "Mullayam Singh <mullayam06@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enjoys-in/store.git"
+  },
+  "keywords": [
+    "embedded",
+    "backend",
+    "rocksdb",
+    "data structures",
+    "redis",
+    "local-first",
+    "database"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rslib",
+    "dev": "rslib --watch",
+    "test": "rstest --pool forks",
+    "test:watch": "rstest --watch"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.23.2",
+    "@rstest/adapter-rslib": "^0.10.6",
+    "@rstest/core": "^0.10.6",
+    "@types/node": "^24.13.2",
+    "@types/rocksdb": "^3.0.5",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "rocksdb": "^5.2.1"
+  }
+}

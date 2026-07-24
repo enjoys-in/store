@@ -1,0 +1,8 @@
+# Ignore everything except necessary files for npm
+*
+!dist/
+!package.json
+!README.md
+!LICENSE
+tests
+tests_scratch_db
