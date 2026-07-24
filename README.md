@@ -31,6 +31,11 @@ Install the dependencies:
 npm install
 ```
 
+### Docker Usage
+
+> [!IMPORTANT]
+> If you are using `@enjoys/store` inside a **Docker container**, you must map a volume for your database directory and ensure the container has read-write (`rw`) permissions for that volume. Because this library relies on an embedded RocksDB database, it needs persistent and writable disk access to function correctly.
+
 ## Get started
 
 Build the library:
