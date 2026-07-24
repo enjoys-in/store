@@ -6,3 +6,7 @@
 !LICENSE
 tests
 tests_scratch_db
+rslib*
+example.app
+tsconfig.json
+package-lock.json
