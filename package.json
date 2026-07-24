@@ -4,7 +4,8 @@
   "description": "A 100% embedded, local-first backend runtime and data structures library built entirely on top of RocksDB.",
   "author": "Mullayam Singh <mullayam06@gmail.com>",
   "contributors": [
-    "Mullayam Singh <mullayam06@gmail.com>"
+    "Mullayam Singh <mullayam06@gmail.com>",
+    "Enjoys In. <su@enjoys.in>"
   ],
   "license": "MIT",
   "repository": {
